@@ -35,12 +35,12 @@ export default () => {
 
   const timeDuationNameLIst = [
     { metricName: 'FunctionQualifierAvgDuration', legendName: intl('fc.dashboard.functionAvgDuration.lable'), colorPrimary: '#0881FE' },
-    { metricName: 'FunctionQualifierMaxDuration', legendName: intl('fc.dashboard.functionMaxDuration.lable'), colorPrimary: 'rgb(90 216 166)' },
+    { metricName: 'FunctionQualifierMaxDuration', legendName: intl('fc.dashboard.functionMaxDuration.lable'), colorPrimary: '#FF7E4F' },
   ];
 
   const n2nDuationNameLIst = [
     { metricName: 'FunctionQualifierLatencyAvg', legendName: intl('fc.dashboard.functionLatencyAvg.lable'), colorPrimary: '#0881FE' },
-    { metricName: 'FunctionQualifierLatencyMax', legendName: intl('fc.dashboard.functionLatencyMax.lable'), colorPrimary: 'rgb(90 216 166)' },
+    { metricName: 'FunctionQualifierLatencyMax', legendName: intl('fc.dashboard.functionLatencyMax.lable'), colorPrimary: '#FF7E4F' },
   ];
 
   const memoryUsageNameList = [
