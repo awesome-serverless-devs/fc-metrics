@@ -1,0 +1,44 @@
+Type: Component
+Name: fc-metrics
+Provider:
+  - Alibaba
+Version: 0.0.4
+Description: metrics 功能
+HomePage: https://github.com/Serverless-Devs
+Tags: #标签详情
+  - Alibaba fc
+Category: 基础云服务
+Commands:
+  metrics: 获取metrics组件展示
+Properties:
+  RegionId:
+    Description: 地域
+    Required: true
+    Type:
+      - Enum:
+        - cn-beijing
+        - cn-hangzhou
+        - cn-shanghai
+        - cn-qingdao
+        - cn-zhangjiakou
+        - cn-huhehaote
+        - cn-shenzhen
+        - cn-chengdu
+        - cn-hongkong
+        - ap-southeast-1
+        - ap-southeast-2
+        - ap-southeast-3
+        - ap-southeast-5
+        - ap-northeast-1
+        - eu-central-1
+        - eu-west-1
+        - us-west-1
+        - us-east-1
+        - ap-south-1
+  ServiceName:
+    Description: 服务名
+    Required: true
+  FunctionName:
+    Description: 函数名
+    Required: true
+

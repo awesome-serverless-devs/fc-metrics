@@ -1,0 +1,9 @@
+demo-1:     
+  Component: fc-metrics # 指向项目路径
+  Provider: alibaba
+  Access: wangbow # 必填，获取密钥信息
+  Properties:
+    regionId: cn-hangzhou
+    serviceName:  test
+    functionName:  testHello
+
